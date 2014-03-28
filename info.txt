@@ -1,0 +1,8 @@
+Quick guide for implementing responsive media queries for IE 8 support
+Order of precedence in html includes.
+First - Modernizr
+Second - Respond.js
+Third - Media-match
+Then additionally any other plugins that may require media query or polyfill support (ie. Enquire.js)
+
+LASTLY - make sure to minify all JS & CSS files for responsive.js to tigger.
